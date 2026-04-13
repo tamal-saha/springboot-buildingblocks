@@ -16,6 +16,7 @@ public class HelloWorldController {
 	public UserDetails getBean()
 	{
 		System.out.println("Test1");
+			System.out.println("Test22");
 		return new UserDetails("Tamal", "saha", "mumbai");
 	}
 }
