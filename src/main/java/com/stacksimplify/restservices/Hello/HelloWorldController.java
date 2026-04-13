@@ -15,6 +15,7 @@ public class HelloWorldController {
 	@RequestMapping(path = "/getbean",method = RequestMethod.GET)
 	public UserDetails getBean()
 	{
+		System.out.println("Test");
 		System.out.println("Test1");
 		return new UserDetails("Tamal", "saha", "mumbai");
 	}
